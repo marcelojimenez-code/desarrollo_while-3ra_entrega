@@ -1,0 +1,44 @@
+@media only screen and (min-width: 1024px) {
+	.navbar-expand-lg {
+		.navbar-collapse {
+			justify-content: flex-end;
+		}
+	}
+	.footerBg {
+		display: flex;
+		justify-content: space-around;
+	}
+	.carousel-item {
+		height: 700px !important;
+	}
+	.imagen-flex {
+		width: 480px;
+	}
+	.texto-flex {
+		padding-left: 2rem;
+	}
+	.form-label {
+		font-size: 1.6rem;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.footerBg {
+		display: flex;
+		justify-content: space-around;
+		height: 10rem;
+	}
+	.carousel-caption {
+		h5 {
+			font-size: 1.5rem;
+		}
+		p {
+			font-size: 1.5rem;
+		}
+	}
+	.imagen-flex {
+		width: 320px;
+	}
+	.form-label {
+		font-size: 1.2rem;
+	}
+}

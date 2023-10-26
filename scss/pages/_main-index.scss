@@ -1,0 +1,47 @@
+/* Estilos main index */
+
+	main {
+		color: nth($list: $colores, $n :6);
+		font-size: 2rem;
+		vertical-align: bottom;
+		margin-bottom: 10px;
+	}
+	section {
+		height: 85%;
+		width: 100%;
+		p {
+			font-family: $font-family_3;
+			text-align: left;
+			font-size: 3rem;
+			color: $color_4;
+		}
+	}
+	#principal {
+		h1 {
+			color: nth($list: $colores, $n :7);
+			font-size: 3rem;
+			text-align: center;
+			vertical-align: bottom;
+			margin-bottom: 10px;
+		}
+	}
+	.carousel-caption {
+		h5 {
+			color: nth($list: $colores, $n :7);
+			font-size: 3rem;
+			text-align: center;
+			vertical-align: bottom;
+			margin-bottom: 10px;
+			-webkit-text-stroke: 1px fff;
+			text-shadow: 3px 0px 0px black, 0px 3px 0px black, -3px 0px 0px black, 0px -3px 0px black;
+		}
+		p {
+			color: nth($list: $colores, $n :7);
+			font-size: 3rem;
+			text-align: center;
+			vertical-align: bottom;
+			margin-bottom: 10px;
+			-webkit-text-stroke: 1px fff;
+			text-shadow: 3px 0px 0px black, 0px 3px 0px black, -3px 0px 0px black, 0px -3px 0px black;
+		}
+	}

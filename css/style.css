@@ -1,0 +1,282 @@
+
+/* Estilos generales */
+/* Selector de etiqueta nav, ul, h1, main */
+
+/* Reseteo css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    /* Modifica el tamaño de la font del html de 16px a 10px para que 1rem = 10px */
+    font-size: 62.5%;
+}
+
+
+h2{
+    color: blue;
+}
+
+/* Se pisa el estilo porque se lee en CASCADA*/
+/* h2{
+    color: chartreuse;
+} */
+
+/* Selector de clase. Predomina ante el selector de etiqueta*/
+
+.color-text{
+    color: violet;
+}
+
+
+.text-centrado{
+    padding-top: 20%;
+}
+
+/* Selector único o ID. Predomina ante class y selector de etiqueta*/
+
+#subtitulo{
+    color: chocolate;
+}
+
+/* Estilos header */
+/* Especificidad */
+header {
+    background-color: #f1f1f1;
+    height: 8rem;
+    display: block;
+    width:100%;
+}
+
+header h1{
+    text-align: left;
+    /* alineamos el contenido */
+    display:inline-block;
+    width:30%;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+header nav {
+    /* Quita los bullets/puntos del menú */
+    list-style: none;
+    text-align: right;
+    display:inline-block;
+    width:65%;
+}
+
+header ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.3em;
+
+    color: #000;
+    /* Quita el subrayado de los enlaces */
+    text-decoration: none;
+    /* Cambia el tamaño de la fuente por defecto */
+    font-size: 1.3rem;
+    /* Cambia el texto a mayúsculas */
+    text-transform: capitalize;
+    /* Cambia el grosor de la fuente */
+    font-weight: 400;
+    /* Cambia la tipografía de la fuente */
+    font-family: 'Roboto', 'Poppins', sans-serif;
+}
+
+header ul li a:hover{
+    background-color: rgb(238, 124, 17);
+    color: #f1f1f1;
+}
+
+header ul li a:active{
+    padding: 0.2em;
+}
+
+/* Estilos main index */
+
+main{
+    color: #fff;
+    font-size: 2rem; 
+    vertical-align: bottom; 
+    margin-bottom: 10px; 
+}
+
+section {
+    height: 85%;
+    width: 100%;
+}
+
+section p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 3rem;
+    color: #000;
+}
+
+#principal{
+    position: absolute;
+    left: 0;    
+    min-width: 100%;
+    min-height: 30%;
+    
+    /* Imagen de fondo */
+    background-image: url(./../assets/img/codigo.jpg);
+    /* Posición de la imagen */
+    /* background-position-y: -150px; */
+    /* Evita la repetición de la imagen */
+    background-repeat: no-repeat;
+    /* Tamaño de la imagen dentro del contenedor */
+    background-size: cover;
+    /* Deja la imagen fija, efecto parallax */
+    background-attachment: fixed;
+}
+
+#principal h1 {
+    color: rgb(207, 228, 18); 
+    font-size: 3rem; 
+    text-align:center;
+    vertical-align: bottom; 
+    margin-bottom: 10px; 
+}
+
+p{
+    font-size: 3rem;
+}
+
+/* Estilos main ejemplo */
+#titulo{
+    /*width: 50rem;*/
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(47, 17, 182);
+}
+
+/* Estilos main contacto */
+#contactenos{
+    width: 50rem;
+    width: 100%;
+    margin: 0 auto;
+    color: #000;
+    font-size: 1rem;
+}
+
+#contactenos h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+
+/* Estilos footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    height: 8rem;
+    display: block;
+    width:100%;
+    margin-top: 2rem;
+}
+
+footer h1{
+    text-align: left;
+    /* alineamos el contenido */
+    display:inline-block;
+    width:30%;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+footer p{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#footer_left  {
+    padding-left: 20px;
+    list-style: none;
+    text-align: left;
+    display:inline-block;
+    width:30%;
+}
+
+#footer_middle  {
+    padding-left: 20px;
+    list-style: none;
+    text-align: center;
+    display:inline-block;
+    width:30%;
+}
+
+#footer_right  {
+    list-style: none;
+    text-align: right;
+    display:inline-block;
+    width:35%;
+}
+
+#footer_right ul{
+    margin: 0.5em auto;
+    text-align: right;
+}
+
+
+#footer_right ul li a{
+    text-decoration: none;
+    padding: 0.3em;
+
+    color: #fff;
+    /* Quita el subrayado de los enlaces */
+    text-decoration: none;
+    /* Cambia el tamaño de la fuente por defecto */
+    font-size: 1.3rem;
+    /* Cambia el texto a mayúsculas */
+    text-transform: capitalize;
+    /* Cambia el grosor de la fuente */
+    font-weight: 400;
+    /* Cambia la tipografía de la fuente */
+    font-family: 'Roboto', 'Poppins', sans-serif;
+}
+
+#footer_right ul li a:hover{
+    background-color: rgb(238, 124, 17);
+    color: #f1f1f1;
+}
+
+#footer_right ul li a:active{
+    padding: 0.2em;
+}
+
+
+/* vista desktop */
+@media only screen and (min-width: 1024px) {
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: flex-end;
+	}
+
+	.footerFlex {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+/* vista mobile */
+@media only screen and (max-width: 767px) {
+	.footerFlex {
+		display: flex;
+		flex-direction: column;
+	}
+}
