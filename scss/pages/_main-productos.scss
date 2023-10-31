@@ -1,4 +1,83 @@
-.image-redonda{
-        width: 200px;
-        height: 200px;
+.centrado{
+width: 400px;
+height: 300px;
+text-align: center;
 }
+
+.p-centrado{
+width: 400px;
+height: 300px;
+text-align: center;
+padding-top: 20px;
+}
+
+.centrado-productos{
+margin: 0 auto;
+}
+
+/*
+.caption-style-1 {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        
+        li {
+          float: left;
+          padding: 0px;
+          position: relative;
+          overflow: hidden;
+          border:  1px solid red;
+          width: 400px;
+      
+          &:hover .caption {
+            opacity: 1;
+          }
+        }
+      
+        img {
+          margin: 0px;
+          padding: 0px;
+          float: left;
+          z-index: 4;
+        }
+      
+        .caption {
+          cursor: pointer;
+          position: absolute;
+          opacity: 0;
+          -webkit-transition: all 0.45s ease-in-out;
+          -moz-transition: all 0.45s ease-in-out;
+          -o-transition: all 0.45s ease-in-out;
+          -ms-transition: all 0.45s ease-in-out;
+          transition: all 0.45s ease-in-out;
+        }
+      
+        .blur {
+          background-color: rgba(0, 0, 0, 0.65);
+          height: 300px;
+          width: 400px;
+          z-index: 5;
+          position: absolute;
+        }
+      
+        .caption-text {
+          h1 {
+            text-transform: uppercase;
+            font-size: 20px;
+            text-align: center;
+          }
+          p{
+                text-align: center;   
+          }
+          
+          z-index: 10;
+          color: #fff;
+          position: absolute;
+          width: 400px;
+          height: 300px;
+          text-align: center;
+          top: 100px;
+        }
+      }
+      
+ */     
