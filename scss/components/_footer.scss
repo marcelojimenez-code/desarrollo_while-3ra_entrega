@@ -1,6 +1,7 @@
     .footer-abajo{
-        position: absolute;
-        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: relative;
         width: 100%;
     }
 

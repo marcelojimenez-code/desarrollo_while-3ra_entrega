@@ -15,10 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Link al css -->
-    <link rel="stylesheet" href="../css/main.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <!-- Link al css -->
+   <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <!-- Estructura básica body -->
@@ -28,7 +28,7 @@
         <div class="row">
         <div class="col-lg-12 col-xs-12">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img id="top" src="../assets/img/animation1.gif" width="40" height="40" alt="logo while"><h1>While</h1> </a>
+            <a class="navbar-brand" href="#"><img id="top" src="../assets/img/logo.gif" class="logo" alt="logo while"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -105,8 +105,8 @@
               
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                    <label class="form-label" for="email" class="form-label">Dorección</label>
-                    <input type="email" id="email" class="form-control" />                  
+                    <label class="form-label" for="email" class="form-label">Dirección</label>
+                    <input type="text" id="direccion" class="form-control" />                  
                 </div>
 
                 <div class="form-outline mb-4">
@@ -132,31 +132,26 @@
             </form>
         </div>
     </div>    
+
+    <div class="container-fluid map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.1840923749633!2d-70.66164268791465!3d-33.522599001101014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dae534ddbc6d%3A0x335ac5a2294ec17a!2sFernando%20Rioja%20103%2C%207980186%20La%20Cisterna%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1701663882966!5m2!1ses!2scl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
     </main>
      
     <!-- footer pie de página, van redes sociales, datos de contacto, mapa, form, derechos de autor -->   
-
-    <div class="container-fluid">
-        <footer class="row footerBg paddingTB">
+    <footer class="row footerBg paddingTB">
+        <div class="container-fluid footer-abajo">        
           <div class="col-lg-4 col-xs-12 footer_left">
-                <address>
-                <p>Dirección: Fernando Rioja</p>
-                <p>Teléfono: (56) 933353633</p>
-                <p>Correo electrónico: info@gmail.com</p>
-                </address>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
           </div>
           <div class="col-lg-4 col-xs-12" align="center">
             <p>&copy; 2023 While. Todos los derechos reservados.</p>
           </div>
-          <div class="col-lg-4 col-xs-12 footer_right d-none d-sm-block">
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
-          </div>
-        </footer>
-    </div>  
+        </div>         
+    </footer>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>

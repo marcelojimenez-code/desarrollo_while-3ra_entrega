@@ -8,8 +8,15 @@ html {
 	font-size: 62.5%;
 }
 
+body{
+	overflow-x: hidden;
+	display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
 h1 {
-	color: nth($list: $colores, $n :10);
+	color: nth($list: $colores, $n :4);
 	text-align: left;
 	vertical-align: bottom;
 	margin-bottom: 10px;
@@ -28,4 +35,14 @@ h2 {
 }
 #subtitulo {
 	color: nth($list: $colores, $n :3);
+}
+
+
+.espacio{
+	height: 30px;
+}
+
+p{
+    color: black;
+	font-size: 1.3rem;
 }
